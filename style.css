@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #fff;
+}
+
+header {
+    background-color: #1f1f1f;
+    padding: 1em;
+}
+
+header h1 {
+    margin: 0;
+    text-align: center;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    padding: 2em;
+}
+
+.profile img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-right: 2em;
+}
+
+.profile-info h2 {
+    margin: 0;
+    font-size: 2em;
+}
+
+.profile-info p {
+    margin: 0.5em 0;
+}
+
+.experience {
+    margin-top: 1em;
+}
+
+.experience p {
+    margin: 0.2em 0;
+}
+
+.education, .projects, .testimonial, .call-to-action {
+    padding: 2em;
+    background-color: #1f1f1f;
+    margin: 1em 0;
+}
+
+.education h3, .projects h3, .call-to-action h3 {
+    margin-top: 0;
+}
+
+.education ul, .projects ul {
+    list-style: none;
+    padding: 0;
+}
+
+.education li, .projects li {
+    margin: 0.5em 0;
+}
+
+.testimonial p {
+    font-style: italic;
+    text-align: center;
+}
+
+.call-to-action {
+    text-align: center;
+}
+
+.call-to-action a {
+    display: inline-block;
+    margin-top: 1em;
+    padding: 0.5em 1em;
+    background-color: #6200ea;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #1f1f1f;
+    padding: 1em;
+    text-align: center;
+}
+
+.social-media a {
+    margin: 0 0.5em;
+    color: #6200ea;
+    text-decoration: none;
+}
